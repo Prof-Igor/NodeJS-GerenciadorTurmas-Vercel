@@ -7,7 +7,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("postgres://Prof-Igor:sZRVmk2O1NKo@ep-noisy-lab-13800049.us-east-2.aws.neon.tech/turmas_db")
+  url      = env("DATABASE_URL")
 }
 
 model Book {
